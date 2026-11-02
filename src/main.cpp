@@ -40,7 +40,7 @@ int main() {
     while (systemRunning) {
         Utils::clearScreen();
         Utils::printHeader("INVENTORY MANAGEMENT SYSTEM (IMS)");
-        std::cout << "        Object-Oriented Programming (OOP) Semester Project      \n";
+        std::cout << "        Object-Oriented Programming (OOP) 3rd Semester Project  \n";
         std::cout << "             C++ Comprehensive OOP Implementation               \n";
         Utils::printLine('=', 65);
         std::cout << "\n   1. Login to IMS\n";

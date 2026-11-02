@@ -188,7 +188,7 @@ void FileHandler::logActivity(const std::string& user, const std::string& action
 void FileHandler::seedInitialDataIfEmpty(Inventory& inventory, std::vector<User*>& users) {
     // 1. Seed Users if empty
     if (users.empty()) {
-        users.push_back(new Admin("admin", "admin123", "Muhammad Suleman (Admin)"));
+        users.push_back(new Admin("admin", "admin123", "Arslan Ali & Muhammad Suleman (Admin)"));
         users.push_back(new Staff("staff", "staff123", "Store Cashier Associate", "Morning"));
         saveUsers(users);
         logActivity("SYSTEM", "Initialized default Admin and Staff accounts");

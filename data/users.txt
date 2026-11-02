@@ -1,2 +1,2 @@
-ADMIN;admin;admin123;Muhammad Suleman (Admin)
+ADMIN;admin;admin123;Arslan Ali & Muhammad Suleman (Admin)
 STAFF;staff;staff123;Store Cashier Associate;Morning

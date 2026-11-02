@@ -1,10 +1,10 @@
 /**
  * ============================================================================
- * INVENTORY MANAGEMENT SYSTEM (IMS) - 2ND SEMESTER OOP PROJECT
+ * INVENTORY MANAGEMENT SYSTEM (IMS) - 3RD SEMESTER OOP PROJECT
  * ============================================================================
  * Language: C++ (C++11 / C++14 / C++17 Compatible)
  * Paradigm: Object-Oriented Programming (OOP)
- * Author:   Muhammad Suleman (Software Engineering Student)
+ * Authors:  Arslan Ali and Muhammad Suleman (Software Engineering Students)
  *
  * OOP CONCEPTS COVERED (From First Topic to End):
  * 1.  Classes & Objects
@@ -595,7 +595,7 @@ public:
 
 class Admin : public User {
 public:
-    Admin() : User("admin", "admin123", "Muhammad Suleman (Admin)", "ADMIN") {}
+    Admin() : User("admin", "admin123", "Arslan Ali & Muhammad Suleman (Admin)", "ADMIN") {}
     Admin(const std::string& u, const std::string& p, const std::string& f) : User(u, p, f, "ADMIN") {}
 
     virtual void showDashboard() const override {
@@ -996,7 +996,7 @@ public:
 
     void seedInitialDataIfEmpty(Inventory& inventory, std::vector<User*>& users) {
         if (users.empty()) {
-            users.push_back(new Admin("admin", "admin123", "Muhammad Suleman (Admin)"));
+            users.push_back(new Admin("admin", "admin123", "Arslan Ali & Muhammad Suleman (Admin)"));
             users.push_back(new Staff("staff", "staff123", "Store Cashier Associate", "Morning"));
             saveUsers(users);
         }
@@ -1047,7 +1047,7 @@ int main() {
     while (systemRunning) {
         Utils::clearScreen();
         Utils::printHeader("INVENTORY MANAGEMENT SYSTEM (IMS)");
-        std::cout << "        Object-Oriented Programming (OOP) Semester Project      \n";
+        std::cout << "        Object-Oriented Programming (OOP) 3rd Semester Project  \n";
         std::cout << "             C++ Comprehensive OOP Implementation               \n";
         Utils::printLine('=', 65);
         std::cout << "\n   1. Login to IMS\n";

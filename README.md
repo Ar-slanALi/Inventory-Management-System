@@ -4,9 +4,9 @@
 ![Paradigm](https://img.shields.io/badge/Paradigm-Object--Oriented%20Programming%20(OOP)-darkgreen.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-orange.svg)
-![Status](https://img.shields.io/badge/Semester-2nd%20Semester%20Final%20Project-purple.svg)
+![Status](https://img.shields.io/badge/Semester-3rd%20Semester%20Final%20Project-purple.svg)
 
-A comprehensive, production-grade console **Inventory Management System (IMS)** developed in **C++** for the **2nd Semester Object-Oriented Programming (OOP)** course.
+A comprehensive, production-grade console **Inventory Management System (IMS)** developed in **C++** for the **3rd Semester Object-Oriented Programming (OOP)** course.
 
 This project represents a major architectural upgrade from a 1st-semester procedural project (flat arrays and isolated functions) into a fully modular, object-oriented software system demonstrating all standard academic OOP concepts from fundamental classes to advanced runtime polymorphism, templates, custom exceptions, and persistent file handling.
 
@@ -15,7 +15,7 @@ This project represents a major architectural upgrade from a 1st-semester proced
 ## 📑 Table of Contents
 
 - [Project Overview](#-project-overview)
-- [Evolution: 1st Semester (PF) vs 2nd Semester (OOP)](#-evolution-1st-semester-pf-vs-2nd-semester-oop)
+- [Evolution: 1st Semester (PF) vs 3rd Semester (OOP)](#-evolution-1st-semester-pf-vs-3rd-semester-oop)
 - [OOP Concepts Implementation Matrix](#-oop-concepts-implementation-matrix)
 - [System Architecture & Class Hierarchy](#-system-architecture--class-hierarchy)
 - [System Workflow Diagram](#-system-workflow-diagram)
@@ -26,7 +26,7 @@ This project represents a major architectural upgrade from a 1st-semester proced
 - [How to Compile and Run](#-how-to-compile-and-run)
 - [Default Login Credentials](#-default-login-credentials)
 - [Viva Voce & Interview Preparation Cheat Sheet](#-viva-voce--interview-preparation-cheat-sheet)
-- [Author & Acknowledgments](#-author--acknowledgments)
+- [Authors & Acknowledgments](#-authors--acknowledgments)
 
 ---
 
@@ -45,9 +45,9 @@ The **Inventory Management System (IMS)** manages store operations, multi-catego
 
 ---
 
-## 🔄 Evolution: 1st Semester (PF) vs 2nd Semester (OOP)
+## 🔄 Evolution: 1st Semester (PF) vs 3rd Semester (OOP)
 
-| Feature / Concept | 1st Semester Project (Programming Fundamentals) | 2nd Semester Project (Object-Oriented Programming) |
+| Feature / Concept | 1st Semester Project (Programming Fundamentals) | 3rd Semester Project (Object-Oriented Programming) |
 |---|---|---|
 | **Architecture** | Monolithic procedural code in a single file (`Ims.cpp`) | Modular multi-file architecture with clean headers (`include/`) and implementations (`src/`) |
 | **Data Storage (Memory)** | Flat parallel arrays (`ids[]`, `names[]`, `quantities[]`) | Dynamic collection of polymorphic objects (`std::vector<Product*>`) |
@@ -441,7 +441,7 @@ The system comes pre-seeded with two accounts for testing:
 
 | Role | Username | Password | Full Name / Title | Permissions |
 |---|---|---|---|---|
-| **Administrator** | `admin` | `admin123` | Muhammad Suleman (Admin) | Full CRUD, User Mgmt, Financial Analytics |
+| **Administrator** | `admin` | `admin123` | Arslan Ali & Muhammad Suleman (Admin) | Full CRUD, User Mgmt, Financial Analytics |
 | **Staff Member** | `staff` | `staff123` | Store Cashier Associate | POS Counter, Stock Movement, Search, Alerts |
 
 *(Administrators can register additional staff accounts via menu option 12).*
@@ -478,12 +478,12 @@ When presenting this project to your professor or external examiner, be prepared
 
 ---
 
-## 👨‍💻 Author & Acknowledgments
+## 👨‍💻 Authors & Acknowledgments
 
-- **Author**: Muhammad Suleman
+- **Authors**: Arslan Ali & Muhammad Suleman
 - **Program**: Bachelor of Science in Software Engineering (BSSE)
 - **Course**: Object-Oriented Programming (CS201 / SE201)
-- **Semester**: 2nd Semester Project
+- **Semester**: 3rd Semester Project
 
 ---
 

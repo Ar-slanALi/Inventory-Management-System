@@ -2,7 +2,7 @@
 title Inventory Management System - Build & Run
 echo =======================================================
 echo    INVENTORY MANAGEMENT SYSTEM (IMS) - C++ OOP
-echo    2nd Semester Object-Oriented Programming Project
+echo    3rd Semester Object-Oriented Programming Project
 echo =======================================================
 echo.
 
