@@ -1,0 +1,6 @@
+PERISHABLE;101;Organic Whole Milk 1L;Dairy;45;1.80;2.50;10;101|Nestle Distribution|+92-300-1122334|orders@nestle.com;2026-11-20;4.00
+PERISHABLE;102;Amoxicillin 500mg (10 Tab);Pharmacy;15;6.00;9.50;5;103|Getz Pharma International|+92-333-5566778|supply@getz.com;2027-05-15;22.00
+PERISHABLE;103;Fresh Farm Eggs (Dozen);Dairy;8;2.00;3.20;10;101|Nestle Distribution|+92-300-1122334|orders@nestle.com;2026-11-15;8.00
+ELECTRONICS;201;Dell Wireless Mouse WM126;Peripherals;25;12.00;19.99;5;102|Dell Technologies Ltd|+92-321-9988776|b2b@dell.com;12;Dell
+ELECTRONICS;202;Logitech HD Webcam C920;Accessories;4;45.00;69.99;5;102|Dell Technologies Ltd|+92-321-9988776|b2b@dell.com;24;Logitech
+ELECTRONICS;203;Kingston 512GB NVMe SSD;Storage;18;38.00;54.99;6;102|Dell Technologies Ltd|+92-321-9988776|b2b@dell.com;36;Kingston

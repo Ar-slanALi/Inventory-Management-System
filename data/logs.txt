@@ -1,0 +1,4 @@
+[2026-11-01 09:00:00] User: SYSTEM | Action: System Initialized
+[2026-11-01 10:15:22] User: staff | Action: Sold Product ID 101 Qty: 5
+[2026-11-01 11:30:45] User: admin | Action: Sold Product ID 201 Qty: 2
+[2026-11-01 14:00:10] User: admin | Action: Stock In: ID 102 Qty: 10

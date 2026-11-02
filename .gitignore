@@ -1,0 +1,23 @@
+# Compiled Binaries & Executables
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+
+# IDE & Editor Configuration
+.vscode/
+.idea/
+*.layout
+*.depend
+*.cbp
+*.dev
+
+# Temporary / Scratch Files
+*.tmp
+*.bak
+*.swp
+*.log.bak
