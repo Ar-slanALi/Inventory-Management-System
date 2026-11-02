@@ -265,7 +265,7 @@ sequenceDiagram
         File-->>Main: All state persistently synced to disk
         Main->>User: Clean exit message
     else Authentication Fails (3 Attempts)
-        Main->>User: Account temporarily blocked; return to home
+        Main->>User: Account temporarily blocked, returning to home
     end
 ```
 
