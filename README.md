@@ -365,10 +365,6 @@ Inventory-Management-System/
 │   ├── financials.txt                # Cumulative financial statistics
 │   └── logs.txt                      # Security and activity audit trail
 │
-├── legacy_pf_reference/              # 1st semester Programming Fundamentals reference
-│   ├── Ims_PF.cpp                    # Original PF procedural code
-│   └── README_PF.md                  # Original PF documentation
-│
 ├── .gitignore                        # Git ignore rules for build artifacts
 ├── build.bat                         # 1-Click Windows build & execution script
 ├── Makefile                          # Cross-platform GNU Makefile
