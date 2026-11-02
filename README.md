@@ -358,6 +358,8 @@ Inventory-Management-System/
 ├── single_file/                      # Unified distribution (Dev-C++ / University submission)
 │   └── ims_oop_unified.cpp           # Complete project consolidated into 1 file
 │
+├── InventoryManagementSystem_Complete.cpp # Complete project consolidated into 1 standalone file (Root)
+│
 ├── data/                             # Persistent text files (Auto-generated/updated)
 │   ├── products.txt                  # Serialized product records
 │   ├── users.txt                     # User accounts (Admin & Staff)
@@ -413,6 +415,11 @@ inventory_oop.exe
 
 #### Single-File Compilation (Quickest):
 ```bash
+# Using root complete file:
+g++ -std=c++11 InventoryManagementSystem_Complete.cpp -o inventory_oop.exe
+inventory_oop.exe
+
+# Or using single_file/ distribution:
 g++ -std=c++11 single_file/ims_oop_unified.cpp -o inventory_oop.exe
 inventory_oop.exe
 ```
@@ -422,7 +429,7 @@ inventory_oop.exe
 ### Option 3: Using Dev-C++ 5.11 or Code::Blocks
 1. Open **Dev-C++** or **Code::Blocks**.
 2. Click **File** ➔ **Open**.
-3. Select `single_file/ims_oop_unified.cpp`.
+3. Select `InventoryManagementSystem_Complete.cpp` (or `single_file/ims_oop_unified.cpp`).
 4. Press **F11** (or click **Execute** ➔ **Compile & Run**).
 
 ---

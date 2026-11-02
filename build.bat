@@ -33,8 +33,8 @@ if %errorlevel% equ 0 (
 ) else (
     echo.
     echo [!] Compilation failed with modular sources.
-    echo [*] Attempting fallback compilation with single_file/ims_oop_unified.cpp...
-    g++ -std=c++11 single_file\ims_oop_unified.cpp -o inventory_oop.exe
+    echo [*] Attempting fallback compilation with InventoryManagementSystem_Complete.cpp...
+    g++ -std=c++11 InventoryManagementSystem_Complete.cpp -o inventory_oop.exe
     if %errorlevel% equ 0 (
         echo [OK] Fallback compilation successful!
         echo [*] Starting Inventory Management System...
